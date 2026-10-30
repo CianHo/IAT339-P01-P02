@@ -313,12 +313,19 @@ li {
 }
 
 .page-main {
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 3vh;
 }
 
 .main-logo {
-  position: relative;
-  top: 3vh;
+  max-width: 30%;
+}
+
+.banner-image {
+  width: 100vw;
+  /* height: 10em; */
 }
 
 .checkout-container {

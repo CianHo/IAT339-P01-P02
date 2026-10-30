@@ -312,6 +312,15 @@ li {
   flex-direction: row;
 }
 
+.page-main {
+  justify-content: center;
+}
+
+.main-logo {
+  position: relative;
+  top: 3vh;
+}
+
 .checkout-container {
   display: flex;
   flex-direction: column;

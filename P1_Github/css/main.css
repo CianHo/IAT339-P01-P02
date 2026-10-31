@@ -382,6 +382,7 @@ footer {
   flex-direction: column;
   align-content: center;
   text-align: center;
+  color: black;
   /* max-width: 15%; */
   /* max-width: 5em; */
 }

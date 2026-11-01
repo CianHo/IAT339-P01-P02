@@ -644,3 +644,48 @@ a {
 .billing-location input {
   width: 50%;
 }
+
+#contact{
+  margin-left: 12.5rem;
+}
+
+#contact-info {
+  margin-left: 2.5rem;
+}
+
+#contact-info p {
+  font-weight: bold;
+  font-size: medium;
+}
+
+#contact-fast {
+  margin-left: 7rem;
+  max-width: 18rem;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: rgb(85, 229, 109);
+  max-width: 31rem;
+  padding: 1em;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contact-field label{
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.contact-field input, select{
+  border-radius: 0.5rem;
+  border-style: solid;
+}

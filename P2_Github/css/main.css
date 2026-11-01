@@ -645,7 +645,8 @@ a {
   width: 50%;
 }
 
-#contact{
+#contact,
+#news {
   margin-left: 12.5rem;
 }
 
@@ -685,7 +686,28 @@ a {
   font-weight: bold;
 }
 
-.contact-field input, select{
+.contact-field input,
+.contact-field select{
   border-radius: 0.5rem;
   border-style: solid;
+}
+
+#news-list {
+  margin: 2.5rem 0 0 7.5rem;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: rgb(85, 229, 109);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news-item h2,
+.news-item p{
+  width: fit-content;
 }

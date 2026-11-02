@@ -526,6 +526,8 @@ a {
   margin-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
   width: auto;
 }
 
@@ -552,13 +554,17 @@ a {
   /* font-size: xx-large; */
 }
 
+.product-page-buy {
+  border-radius: 8px;
+}
+
 .product-page-feedback {
   display: flex;
   flex-direction: column;
   width: 50rem;
   margin-top: 5rem;
 }
-.product-page-feedback input{
+.product-page-feedback input {
   max-width: fit-content;
   margin-top: 1rem;
 }

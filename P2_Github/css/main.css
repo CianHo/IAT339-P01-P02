@@ -271,6 +271,13 @@ li {
   /* max-width: 35%; */
 }
 
+.cart-image {
+  width: 1.5rem;
+  height: 2rem;
+  background-color: transparent;
+  margin-right: 2.5rem;
+}
+
 .spacer-top {
   height: 6em;
 }

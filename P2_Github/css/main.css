@@ -711,7 +711,8 @@ a {
 }
 
 #contact,
-#news {
+#news,
+#citations {
   margin-left: 12.5rem;
 }
 
@@ -775,4 +776,13 @@ a {
 .news-item h2,
 .news-item p {
   width: fit-content;
+}
+
+#citations-list {
+  max-width: 50rem;
+  margin-bottom: 5rem;
+}
+
+#citations-list li {
+  padding-bottom: 1rem;
 }

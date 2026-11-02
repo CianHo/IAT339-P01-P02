@@ -348,6 +348,10 @@ footer {
   position: relative;
   top: 3vh;
 }
+.page-product {
+  margin-top: 3%;
+  flex-direction: column;
+}
 
 .main-logo {
   max-width: 30%;
@@ -518,6 +522,49 @@ a {
   width: auto;
 }
 
+.product-page-image {
+  width: 20em;
+  border-style: solid;
+  border-color: rgb(85, 229, 109);
+  border-width: 0.4em;
+  border-radius: 8px;
+}
+
+.product-page-inner {
+  /* margin-left: 5%; */
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: flex-end;
+  align-self: center;
+  gap: 20%;
+  /* background-color: red; */
+}
+.product-page-title {
+  align-self: center;
+  /* font-size: xx-large; */
+}
+
+.product-page-caption {
+  justify-self: center;
+  align-self: center;
+  background-color: rgb(237, 237, 75);
+  border-radius: 8px;
+  padding: 0.7em;
+  /* padding-bottom: 0; */
+  font-size: large;
+}
+
+@media (min-width: 1400px) {
+}
+@media (max-width: 1399px) {
+  .product-page-inner {
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+  }
+}
+
 #cart-info {
   display: flex;
 }
@@ -681,13 +728,13 @@ a {
   margin-bottom: 1rem;
 }
 
-.contact-field label{
+.contact-field label {
   margin-bottom: 0.25rem;
   font-weight: bold;
 }
 
 .contact-field input,
-.contact-field select{
+.contact-field select {
   border-radius: 0.5rem;
   border-style: solid;
 }
@@ -708,6 +755,6 @@ a {
 }
 
 .news-item h2,
-.news-item p{
+.news-item p {
   width: fit-content;
 }

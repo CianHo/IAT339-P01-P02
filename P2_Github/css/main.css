@@ -339,7 +339,7 @@ footer {
 .page-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 25%;
+  margin-bottom: 5%;
 }
 
 .page-main {
@@ -543,6 +543,17 @@ a {
 .product-page-title {
   align-self: center;
   /* font-size: xx-large; */
+}
+
+.product-page-feedback {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin-top: 5rem;
+}
+.product-page-feedback input{
+  max-width: fit-content;
+  margin-top: 1rem;
 }
 
 .product-page-caption {

@@ -33,6 +33,12 @@
 body {
   /* from lecture */
   font-family: "montserrat", "Times New Roman", Times, sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 6em;
+  /* background-color: red; */
+  /* height: 100vh; */
+  /* min-height: 100vh; */
+  /* background-color: red; */
 }
 
 /* from lecture */
@@ -259,6 +265,7 @@ li {
 
 .logo {
   background-color: white;
+  border-radius: 8px;
 }
 
 .logo:hover,
@@ -330,6 +337,8 @@ footer {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   justify-self: center;
+  margin-bottom: 0;
+  align-self: flex-end;
 }
 
 .footer-example {
@@ -343,10 +352,17 @@ footer {
   padding-bottom: 0.3%;
 }
 
+/* @media (max-height: 10000em) {
+  footer {
+    position: fixed;
+  }
+} */
+
 .page-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 5%;
+  /* background-color: red; */
 }
 
 .page-main {
@@ -383,8 +399,9 @@ footer {
   margin: 1%;
   width: 70%;
   margin-bottom: 3%;
-  height: 10em;
+  /* height: 10em; */
   /* max-width: 100vw; */
+  /* background-color: blue; */
 }
 
 .main-grid-item {

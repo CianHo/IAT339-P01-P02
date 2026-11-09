@@ -740,25 +740,27 @@ a {
   width: 50%;
 }
 
-#contact,
-#news,
-#citations {
-  margin-left: 12.5rem;
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 #contact-info {
-  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #contact-info p {
   font-weight: bold;
   font-size: medium;
+  text-align: center;
 }
 
 #contact-fast {
-  margin-left: 7rem;
   max-width: 18rem;
-  text-align: center;
 }
 
 #contact-form {
@@ -769,6 +771,7 @@ a {
   border-color: rgb(85, 229, 109);
   max-width: 31rem;
   padding: 1em;
+  margin-bottom: 1rem;
 }
 
 .contact-field {
@@ -788,6 +791,11 @@ a {
   border-style: solid;
 }
 
+#news,
+#citations {
+  margin-left: 12.5rem;
+}
+
 #news-list {
   margin: 2.5rem 0 0 7.5rem;
 }
@@ -795,7 +803,7 @@ a {
 .news-item {
   display: flex;
   flex-direction: column;
-  max-width: 60rem;
+  max-width: 115rem;
   border-radius: 0.5rem;
   border-style: solid;
   border-color: rgb(85, 229, 109);

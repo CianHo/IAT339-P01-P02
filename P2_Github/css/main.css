@@ -487,6 +487,11 @@ footer {
   /* height: 32em; */
 }
 
+.product-card:hover, .product-card:focus-within {
+  background-color: #F2ECEC;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
 .product-image {
   max-width: 100%;
   border-top-left-radius: 8px;

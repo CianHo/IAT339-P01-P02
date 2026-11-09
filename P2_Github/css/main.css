@@ -415,6 +415,10 @@ footer {
   /* max-width: 15%; */
   /* max-width: 5em; */
 }
+.main-grid-item:hover,
+.main-grid-item:focus {
+  filter: drop-shadow(0 0 0.75rem black);
+}
 
 .main-grid-image {
   width: 100%;
@@ -488,8 +492,9 @@ footer {
 }
 
 /*Learned about drop-shadow here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow*/
-.product-card:hover, .product-card:focus-within {
-  background-color: #F2ECEC;
+.product-card:hover,
+.product-card:focus-within {
+  background-color: #f2ecec;
   filter: drop-shadow(0 0 0.75rem black);
 }
 

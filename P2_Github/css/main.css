@@ -417,7 +417,7 @@ footer {
 }
 .main-grid-item:hover,
 .main-grid-item:focus {
-  filter: drop-shadow(0 0 0.75rem black);
+  filter: drop-shadow(0 0 0.15rem black);
 }
 
 .main-grid-image {
@@ -495,7 +495,7 @@ footer {
 .product-card:hover,
 .product-card:focus-within {
   background-color: #f2ecec;
-  filter: drop-shadow(0 0 0.75rem black);
+  filter: drop-shadow(0 0 0.15rem black);
 }
 
 .product-image {
@@ -803,13 +803,20 @@ a {
   border-style: solid;
 }
 
-#news,
+/* #news, */
 #citations {
   margin-left: 12.5rem;
 }
-
+#news {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 #news-list {
-  margin: 2.5rem 0 0 7.5rem;
+  /* margin: 2.5rem 0 0 7.5rem; */
 }
 
 .news-item {

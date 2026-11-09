@@ -557,7 +557,8 @@ a {
 }
 
 .product-page-image {
-  width: 20em;
+  max-width: 40em;
+  max-height: 30rem;
   border-style: solid;
   border-color: rgb(85, 229, 109);
   border-width: 0.4em;
@@ -571,9 +572,14 @@ a {
   width: 70vw;
   justify-content: flex-end;
   align-self: center;
-  gap: 20%;
+  gap: 45%;
   /* background-color: red; */
 }
+
+.product-page-inner h2 {
+  margin-top: 7.5rem;
+}
+
 .product-page-title {
   align-self: center;
   /* font-size: xx-large; */

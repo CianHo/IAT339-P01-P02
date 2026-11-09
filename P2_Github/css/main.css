@@ -487,6 +487,7 @@ footer {
   /* height: 32em; */
 }
 
+/*Learned about drop-shadow here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow*/
 .product-card:hover, .product-card:focus-within {
   background-color: #F2ECEC;
   filter: drop-shadow(0 0 0.75rem black);
